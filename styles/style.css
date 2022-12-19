@@ -97,6 +97,18 @@ body {
   color: #bfbfbf;
   text-decoration: none;
 }
+@media only screen and (min-width: 100px) and (max-width: 990px) {
+  .navbar-collapse {
+    background-color: #fafaed;
+    width: auto;
+  }
+  .sizing {
+    width: 100%;
+    background-color: #fafaede6;
+    color: #333333;
+  }
+}
+
 @media only screen and (min-width: 1020px) {
   .margin {
     max-width: 70%;
@@ -176,6 +188,7 @@ body {
     margin: 0;
     text-align: justify;
   }
+
   .sizing {
     height: 86px;
     background-color: #fafaede6;
@@ -189,7 +202,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 200px) and (max-width: 390px) {
+@media only screen and (min-width: 100px) and (max-width: 390px) {
   .texthead {
     font-size: 1rem;
   }
@@ -213,9 +226,12 @@ body {
     padding-top: 30px;
   }
   .text1 {
-    font-size: 0.75rem;
+    font-size: 0.45rem;
   }
   .text2 {
+    font-size: 0.65rem;
+  }
+  .texthead {
     font-size: 1rem;
   }
 }
